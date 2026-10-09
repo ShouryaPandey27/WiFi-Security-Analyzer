@@ -1,4 +1,4 @@
-# Secure Wave Analyzer
+# WIFI Security Analyser
 
 **Wireless Security Monitoring & Analysis System**
 
