@@ -1,0 +1,7 @@
+# Secure Wave Analyzer — dependencies
+# Tkinter, sqlite3, and the rest of the standard library ship with Python 3.12+.
+
+scapy>=2.5.0        # ARP-based local device discovery (falls back to `arp -a` if absent)
+matplotlib>=3.8.0    # Scan history charts (Security Score Trend, Risk Distribution, etc.)
+reportlab>=4.0.0     # PDF report generation
+pytest>=8.0.0        # Test suite

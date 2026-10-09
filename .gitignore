@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+data/*.db
+logs/*.log
+reports/generated/*
+!reports/generated/.gitkeep
+
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+.DS_Store
+Thumbs.db
+# Extra safety
+*.db
+*.sqlite3
+.vscode/

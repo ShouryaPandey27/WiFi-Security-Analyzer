@@ -1,0 +1,22 @@
+oui_vendors.txt — MAC address OUI-to-vendor database
+======================================================
+
+Source: mac-vendor-lookup (https://github.com/bauerj/mac_vendor_lookup),
+version 0.1.15, by Johann Bauer. Licensed under the Apache License,
+Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0).
+
+That project's bundled data is itself compiled from the official IEEE
+Registration Authority MAC address registry
+(https://standards-oui.ieee.org/oui/oui.txt) — the authoritative public
+source for which organization owns each MAC address prefix.
+
+This file (oui_vendors.txt) is an unmodified copy of that project's
+cached vendor database (mac-vendors.txt), redistributed here under the
+terms of the Apache License 2.0 to allow fully offline, synchronous
+vendor lookups in core/vendor_lookup.py without adding the original
+project's async runtime dependencies (aiohttp, aiofiles) to this
+project's requirements.txt.
+
+No changes to file contents. See LICENSE-APACHE-2.0.txt in this
+directory for the full license text, per the license's attribution
+requirements.
